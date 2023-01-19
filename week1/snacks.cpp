@@ -42,6 +42,7 @@ int main(int argc, char** argv)
     file >> description; 
     snacks[i] = Snack{ name, cost, quantity, description };
   }
+  cout << "hi" << endl; 
   delete[] snacks; 
 }
 
